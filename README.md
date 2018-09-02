@@ -17,4 +17,4 @@ git push -u origin master（推送本地仓库内容到远程仓库）
 6.如果要添加文件则 用命令 touch xxx（文件名）创建 ，然后git add xxx（文件名）如果同时创建了多个则用【git add . 】来进行添加 
 添加之后进行提交 git commit -m “提交操作的描述”
 然后推送到远程master分支 git push origin master 【origin是最开始命名的远程仓库，根据自己的命名进行更改】
-
+【点击右上角的按钮 ，即可按行查看】
