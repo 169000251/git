@@ -8,15 +8,14 @@
 <p>echo "# 项目名称" >> README.md </p>
 #-初始化本地仓库
 <p>git init</p> 
-git add README.md （添加到本地托管文件【暂存】）ps：git add .--添加所有
-git commit -m "first commit"（提交被托管文件到本地仓库（版本库），引号里面可以写提交版本库的的说明--【最好对应提交的操作方便以后查看】）
-git remote add origin https://github.com/169000251/项目名称.git（-添加到以origin命名远程仓库，可自己随意命名）
-git push -u origin master（复制即可）【推送本地仓库内容到远程仓库】
-如果勾选了（Initialize this repository with a README）
-则直接运行最后两行代码
-git remote add origin https://github.com/169000251/项目名称.git（-添加到以origin命名远程仓库，可自己随意命名）
-git push -u origin master（推送本地仓库内容到远程仓库）
-6.如果要添加文件则 用命令 touch xxx（文件名）创建 ，然后git add xxx（文件名）如果同时创建了多个则用【git add . 】来进行添加 
-添加之后进行提交 git commit -m “提交操作的描述”
-然后推送到远程master分支 git push origin master 【origin是最开始命名的远程仓库，根据自己的命名进行更改】
-【点击右上角的按钮 ，即可按行查看】
+<p>git add README.md （添加到本地托管文件【暂存】）ps：git add .--添加所有</p>
+<p>git commit -m "first commit"提交被托管文件到本地仓库<h5>（版本库）</h5>，引号里面可以写提交版本库的的说明--<h5>【最好对应提交的操作方便以后查看】</h5></p>
+<p>git remote add origin https://github.com/169000251/项目名称.git（-添加到以origin命名远程仓库，可自己随意命名）</p>
+<p>git push -u origin master（复制即可）<h5>【推送本地仓库内容到远程仓库】</h5></p>
+<h3>如果勾选了（Initialize this repository with a README）</h3>
+<p>则直接运行最后两行代码</p>
+<p>git remote add origin https://github.com/169000251/项目名称.git（-添加到以origin命名远程仓库，可自己随意命名）</p>
+<p>git push -u origin master（推送本地仓库内容到远程仓库）</p>
+<h3>6.如果要添加文件<h3><p>则 用命令 touch xxx（文件名）创建 ，然后git add xxx（文件名）如果同时创建了多个则用【git add . 】来进行添加 </p>
+<p>添加之后进行提交 git commit -m “提交操作的描述”</p>
+<p>然后推送到远程master分支 git push origin master <h5>【origin是最开始命名的远程仓库，根据自己的命名进行更改】</h5></p>
