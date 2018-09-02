@@ -1,6 +1,6 @@
-<h3>1.在github上先创建一个项目<h3>
-2.在Ubuntu里创建一个目录 方便管理 mkdir xxx
-3.编辑项目 也可以之后编辑
+<h3>1.在github上先创建一个项目</h3>
+<h3>2.在Ubuntu里创建一个目录 方便管理 mkdir xxx</h3>
+<h3>3.编辑项目 也可以之后编辑</h3>
 4.在终端切换到创建的目录 cd xxx 然后 使用命令 git clone git@github.com:169000251/xxx.git[将远程服务器代码克隆到本地](这里去github上复制就可以，如果配置的是https，即https://github.com/169000251/xxx.git。这里我用ssh作为实例 )
 5.如果在GitHub上创建项目时没有勾选（Initialize this repository with a README）则用命令来创建一个README.md
 文件代码进入GitHub项目界面即可看到
